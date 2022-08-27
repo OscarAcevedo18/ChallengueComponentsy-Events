@@ -1,13 +1,45 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
 body {
-  margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-image: url(https://media.istockphoto.com/vectors/digital-ai-in-image-robot-woman-holds-phone-in-hand-smart-city-on-vector-id1333245117?k=20&m=1333245117&s=612x612&w=0&h=Yuy2IxNkHHFDb0UYNyczQEtsYXhTFExN1eaoQEETOyA=);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+  }
+
+#root {
+  height: 70vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 10rem;
+  margin-top: 10rem;
+  padding-bottom: 2rem;
+  gap: 2.5rem;
+  background-image: url(https://media.istockphoto.com/vectors/protection-background-technology-security-vector-id524882074?k=20&m=524882074&s=170667a&w=0&h=hyeFx2ZlOuUjhvKyfa-yiYUnb6B6qAfE7H26pqU4qGI=);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: aliceblue;
+  border-style: double;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form-control {
+  width: 20rem;
+  border-radius: 0.5rem;
+}
+
+button {
+  width: 8rem;
+  border: solid 0.2rem #f6b0b0;
+  background-color: #cf5a07;
 }
