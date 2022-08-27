@@ -8,6 +8,8 @@ function App() {
   const [name, setName] = useState("")
   const [input, setInput] = useState("");
   const buttonClean = () => {
+    setName("")
+      setInput("")
     if (name === '') {
       Swal.fire({
         position: 'center',
@@ -34,7 +36,7 @@ function App() {
     <div className='container'>
       <h1>Bienvenido a la Validación</h1>
 
-      <Input setInput={setInput} setName={setName} />
+      <Input setInput={setInput} setName={setName} name={name} input={input} />
       {input === "252525" ? <ButtonValidation buttonClean={buttonClean} /> : ''}
     </div>
     </>
